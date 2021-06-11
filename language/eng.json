@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "joinUs": "Join Us",
+        "blog": "Blog",
+        "about": "About us",
+        "contact": "Contact",
+        "softwareDev": "Software Development",
+        "innovation": "Innovation",
+        "academy": "Academy"
+    }
+}

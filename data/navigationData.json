@@ -1,0 +1,32 @@
+{
+    "navigation": [
+        {
+            "id": "n1",
+            "title": "Software Developement"
+        },
+        {
+            "id": "n2",
+            "title": "Innovation"
+        },
+        {
+            "id": "n3",
+            "title": "Academy"
+        },
+        {
+            "id": "n4",
+            "title": "Join Us"
+        },
+        {
+            "id": "n5",
+            "title": "Blog"
+        },
+        {
+            "id": "n6",
+            "title": "About us"
+        },
+        {
+            "id": "n7",
+            "title": "Contact"
+        }
+    ]
+}
