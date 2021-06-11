@@ -2,10 +2,12 @@ import Link from 'next/link';
 import classes from './NavbarTop.module.css'
 import LanguageOptions from '../LanguageOptions/LanguageOptions';
 import { t } from 'react-switch-lang';
+
+import Image from 'next/image'
 const NavbarTop = () => {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}><Link href="/">AMPLITUDO</Link></div>
+            <div className={classes.logo}><Link href="/"><Image width={250} height={250} src={`/img/Amplitudo.svg`} /></Link></div>
             <nav>
                 <ul>
                     <li><Link href='/software-development'>{t('navbar.softwareDev')}</Link></li>
@@ -15,7 +17,9 @@ const NavbarTop = () => {
                     <li><Link href='/blog'>{t('navbar.blog')}</Link></li>
                     <li><Link href='/about'>{t('navbar.about')}</Link></li>
                     <li><Link href='/contact'>{t('navbar.contact')}</Link></li>
-                    <li><LanguageOptions /></li>
+                    <div className={classes.nav_language}>
+                        <LanguageOptions />
+                    </div>
                 </ul>
             </nav>
         </header>
