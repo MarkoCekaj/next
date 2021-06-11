@@ -3,11 +3,10 @@ import classes from './NavbarTop.module.css'
 import LanguageOptions from '../LanguageOptions/LanguageOptions';
 import { t } from 'react-switch-lang';
 
-import Image from 'next/image'
 const NavbarTop = () => {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}><Link href="/"><Image width={250} height={250} src={`/img/Amplitudo.svg`} /></Link></div>
+            <div className={classes.logo}><Link href="/">AMPLITUDO</Link></div>
             <nav>
                 <ul>
                     <li><Link href='/software-development'>{t('navbar.softwareDev')}</Link></li>
