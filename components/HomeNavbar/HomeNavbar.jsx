@@ -12,7 +12,9 @@ const NavbarTop = () => {
                     <li><Link href='/blog'>{t('navbar.blog')}</Link></li>
                     <li><Link href='/about'>{t('navbar.innovation')}</Link></li>
                     <li><Link href='/contact'>{t('navbar.contact')}</Link></li>
-                    <li><LanguageOptions /></li>
+                    <div className={classes.nav_language}>
+                        <LanguageOptions />
+                    </div>
                 </ul>
             </nav>
         </header>
